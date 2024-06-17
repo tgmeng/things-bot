@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "type": "module",
-  "exports": {
-    ".": "./src/index.js"
-  },
   "scripts": {
-    "dev": "watchexec --exts js 'node .'"
+    "dev:weekly": "watchexec --exts js 'node ./weekly.js'"
   },
   "keywords": [],
   "author": "",
